@@ -3,9 +3,7 @@ package com.example.jpaapp;
 
 import javax.persistence.*;
 
-
 @Entity
-@Table(name="EMPLOYEES")
 public class Employee {
 
     @Id
@@ -15,7 +13,7 @@ public class Employee {
     private String name;
     private String region;
 
-    @Column(name="salary")
+
     private double plata;
 
     public Employee() {
