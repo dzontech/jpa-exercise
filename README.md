@@ -1,1 +1,1 @@
-# JPAapp
+# jpa-exercise
